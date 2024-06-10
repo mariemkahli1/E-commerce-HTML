@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width ,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" contenet="width=device-width,initial-scale=1.0">
+        <title>All Products-Bproo store</title>
+        <!--link to css-->
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--javascript for toggle menu-->
+        <script src="script.js"></script> 
+        </head>
+        <body>
+            <section class="header-section">
+           
+            <div class="container">
+        <header class="navbar">
+            <div class="logo">
+                <img src="logo-white.png"  alt ="Bproo logo">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+                <img src="cart.png" alt="cart icon" width="26px">
+                <img src="menu.png" class="menu-icon" alt="menu icon" onclick="menutoggle()">
+            </nav>
+        </header> 
+        </section>
+            <div class="container">
+                <div class="row row-2">
+                    <h2>All Products</h2>
+                    <select>
+                        <option>Default Shorting</option>
+                        <option>Short By Price</option>
+                        <option>Short By popularity</option>
+                        <option>Short By rating</option>
+                        <option>Short By Sale</option>
+                    </select>
+                </div>
+                <div class="row">   
+                      <div class="col-4">
+  <img src="product-1.jpg"  alt="produit 1" >
+   <h3>T-Shirt Rouge</h3>
+   <div class="rating">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p> 50TND </p>
+  </div>
+ <div class="col-4">
+   <img src="product-2.jpg"  alt="produit 2" >
+  <h3>ULTRABOOST BLACK</h3>
+  <div class="rating">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+   <p> 120TND </p>
+  </div>
+  <div class="col-4">
+     <img src="product-3.jpg"  alt="produit 3" >
+      <h3>GREY PANTS</h3>
+      <div class="rating">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        <i class="fa fa-star-o"></i>
+       </div>
+       <p> 70TND </p>
+      </div>
+      <div class="col-4">
+        <img src="product-4.jpg"  alt="produit 4" >
+       <h3>T-Shirt Blue</h3>
+       <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o"></i>
+         </div>
+        <p>  40TND</p>
+        </div>
+      
+      <div class="col-4">
+        <img src="product-5.jpg"  alt="produit 5" >
+        <h3>ULTRABOOST GREY</h3>
+        <div class="rating">
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star-half-o" aria-hidden="true"></i>
+         <i class="fa fa-star-o"></i>
+        </div>
+       <p> 80TND </p>
+        </div>
+        <div class="col-4">
+       <img src="product-6.jpg"  alt="produit 6" >
+        <h3>T-Shirt Black</h3>
+        <div class="rating">
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star-o"></i>
+        </div>
+        <p> 40TND</p>
+       </div>
+      <div class="col-4">
+         <img src="product-7.jpg"  alt="produit 7" >
+        <h3>SOCHS</h3>
+        <div class="rating">
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star-half-o" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star-o"></i>
+        </div>
+       <p> 15TND </p>
+         </div>
+         <div class="col-4">
+       <img src="product-8.jpg"  alt="produit 8" >
+         <h3>WATCH</h3>
+         <div class="rating">
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star-half-o" aria-hidden="true"></i>
+             <i class="fa fa-star-o"></i>
+            </div>
+          <p> 150TND </p>
+        </div>
+        <div class="col-4">
+       <img src="product-9.jpg"  alt="produit 9" >
+        <h3>WATCH</h3>
+        <div class="rating">
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star-o"></i>
+        </div>
+         <p> 250TND</p>
+          </div>
+      <div class="col-4">
+      <img src="product-10.jpg"  alt="produit 10" >
+        <h3>SNEAKERS Black</h3>
+        <div class="rating">
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star-half-o" aria-hidden="true"></i>
+         <i class="fa fa-star-o"></i>
+        </div>
+          <p> 180TND</p>
+            </div>
+         <div class="col-4">
+        <img src="product-11.jpg"  alt="produit 11" >
+         <h3>SNEAKERS GREY</h3>
+         <div class="rating">
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star" aria-hidden="true"></i>
+             <i class="fa fa-star-o"></i>
+            </div>
+         <p> 200TND </p>
+     </div>
+     <div class="col-4">
+       <img src="product-12.jpg"  alt="produit 12" >
+      <h3>PANTS BLACK</h3>
+      <div class="rating">
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star" aria-hidden="true"></i>
+         <i class="fa fa-star-half-o" aria-hidden="true"></i>
+         <i class="fa fa-star-o"></i>
+        </div>
+    <p> 50TND </p>
+     </div>
+        <div class="row"> 
+            <div class="col-4">
+                <img src="poduct3.jpg"  alt="produit 3bis" >
+               <h3>T-shirt Black</h3>
+               <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o"></i>
+                 </div>
+             <p> 50TND </p>
+              </div>
+              <div class="col-4">
+                <img src="product6.jpg"  alt="produit 6bis" >
+               <h3>CAP BLACK</h3>
+               <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o"></i>
+                 </div>
+             <p> 40TND </p>
+              </div>
+              <div class="col-4">
+                <img src="product8.jpg"  alt="produit 8bis" >
+               <h3>SNEAKERS GREY</h3>
+               <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o"></i>
+                 </div>
+             <p> 100TND </p>
+              </div>
+              <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span> &#8594;</span>
+              </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h2>Download Our App</h2>
+                        <p>Download App for Android and Ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="play-store.png">
+                            <img src="app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="logo-white.png">
+                        <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessibe to the many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy </li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter </li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">copyright 2022</p>
+            </div>
+        </div>
+                  
+        </body>
+        </html>

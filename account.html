@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width ,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" contenet="width=device-width,initial-scale=1.0">
+        <title>Bproo Store Dev - Design d'un site de Ecommerce</title>
+        <!--link to css-->
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--javascript for toggle menu-->
+        <script >
+             var MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxheight="0px";
+        function menutoggle(){
+            if ( MenuItems.style.maxheight=="0px"){
+                MenuItems.style.maxheight="200px";
+            }
+            else {
+                MenuItems.style.maxheight="0px";
+            }
+        }
+        </script>
+        <!--js for account bch t7awel mn kaaba l kaaba ama ena aamelt kaaba bark
+        <script> fi css .form-container form tziid transition:transform 1s twali tetbadel smoothly w tziid fi .form-container overflow:hiddden
+          var login=document.getElementById("loginform");
+            var login=document.getElementById("register");
+          var indicateur=document.getElementById("indicateur");
+          function register(){
+            loginform.style.tansform="translateX(0px)";
+            registerform.style.tansform="translateX(0px)";
+            indicateur.style.tansform="translateX(0px)";.....
+          }
+        </script> -->
+        </head>
+        <body>
+            <section class="header-section">
+           
+                <div class="container">
+            <header class="navbar">
+                <div class="logo">
+                    <img src="logo-white.png"  alt ="Bproo logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                    <img src="cart.png" alt="cart icon" width="26px">
+                    <img src="menu.png" class="menu-icon" alt="menu icon" onclick="menutoggle()">
+                </nav>
+            </header> 
+            </section>
+            <!--account page-->
+            <div class="account">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="image1.png" alt="" width="100%">
+                        </div>
+                        <div class="col-2">
+                            <div class="form-container">
+                                <div class="form-btn">
+                                    <span>Login</span>
+                                   <hr id="indicateur">
+                                </div>
+                                <form id="loginform">
+                                    <input type="text" placeholder="Username">
+                                    <input type="password"placeholder="password">
+                                    <button type="submit" class="btn">Login</button>
+                                    <a href="">Forget password</a>
+                                </form>
+                                <form  id="registerform">
+                                    <input type="text" placeholder="Username">
+                                    <input type="email" placeholder="email">
+                                    <input type="password"placeholder="password">
+                                    <button type="submit" class="btn">Register</button>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h2>Download Our App</h2>
+                        <p>Download App for Android and Ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="play-store.png">
+                            <img src="app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="logo-white.png">
+                        <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessibe to the many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy </li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter </li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">copyright 2022</p>
+            </div>
+        </div>
+                  
+        </body>
+        </html>
